@@ -1,0 +1,31 @@
+[project]
+name = "tiny_transformer"
+version = "0.0.1"
+authors = [{ name = "Murilo Gustineli", email = "murilogustineli@gmail.com" }]
+description = "Transformers from Scratch helper package"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "notebook",
+    "ipykernel",
+    "openpyxl",
+    "jupyterlab",
+    "black",
+    "pre-commit",
+    "torch>=2.5.1",
+    "imageio>=2.37.0",
+    "torchvision>=0.22.1",
+]
+
+[project.urls]
+Homepage = "https://github.com/murilogustineli/transformers-from-scratch"
+Issues = "https://github.com/murilogustineli/transformers-from-scratch/issues"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["tiny_transformer"]
