@@ -1,5 +1,7 @@
 # transformers-from-scratch
-Minimal PyTorch implementations, micro-demos, and slides to really understand Transformers.
+Minimal PyTorch implementation, micro-demos, and slides to really understand Transformers.
+
+<img src="./images/transformer-architecture.png" alt="transformer" width="500"/>
 
 A practical, from-first-principles walk through the Transformer:
 - **Embeddings & positions** --> why order matters
